@@ -27,10 +27,12 @@ footer{
 
 .gallery-img{
 	
-	height: 200px;
+	height: 250px;
+	width: 300px;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
   
 }
 .topleft {
@@ -70,19 +72,26 @@ li a:hover:not(.active) {
   background-color: #111;
 }
 
-.active {
-  background-color: #FFC850;
-}
+
+.cat-char-box{ 
+	margin-top: 5px;
+	border-radius: 10px;
+	margin-left: 10px;
+	width: 1023px;
+
+ }
 
 .cat-type-box{
-	box-shadow: 1px 1px 8px 3px #ddd;
+	margin-top: 5px;
 	border-radius: 10px;
-	margin: 5px;
+	margin-left: 10px;
 	width: 250px;
 }
 .cat-type-box-head{
 	padding: 10px;
 	text-align: center;
+	height: 200px;
+	width: 200px;
 }
 .cat-type-box-head > img{
 	width: 200px;
